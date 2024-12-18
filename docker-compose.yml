@@ -8,3 +8,5 @@ services:
     build: ./client
     depends_on:
       - server
+    stdin_open: true
+    tty: true
